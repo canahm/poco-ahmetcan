@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=My+Soul&family=Roboto&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+:root{
+    --blue:#041562;
+    --hoverblue:#041562cd;
+    --lightblue:#11468F;
+    --red:#DA1212;
+    --grey:#EEEEEE;
+    --hovergrey:#eeeeeee0;
+}
+body{
+    width: 100vw;
+    height: 100vh;
+    background-color: var(--blue);
+}
+header{
+    margin: 3em 6em;
+    padding: 1em 2em;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.logo {
+    font-family: 'My Soul', cursive;
+    font-weight: 900;
+}
+nav ul{
+    list-style: none;
+    display: flex;
+}
+nav ul li{
+    padding: 0.2em;
+    margin-left: 0.5em;
+}
+header a{
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 1.5em;
+    padding: 0.1em 0.3em;
+    border-radius: 3px;
+    transition: all 0.5s;
+}
+header a:hover{
+    background-color: var(--hovergrey);
+    color: var(--blue);
+    border: 1px solid var(--red);
+}
