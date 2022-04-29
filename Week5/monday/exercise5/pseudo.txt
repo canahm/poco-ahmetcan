@@ -1,0 +1,6 @@
+#create a function
+#prompt from the user the current age
+#prompt from the user the retierement age the user wants
+#retairement age minus current age to find years to retairement
+#add years to retairement to 2022 to find the year the user retaires.
+#return "It's the year 2022, so you can retire in $(retairement year)".
